@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./loginCSS.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+
+    <script>
+        function loginUser() {
+            var name = document.getElementById("name").value;
+
+            localStorage.setItem("name", name);
+
+            window.location.href = "./ZypherNep.html";
+        }
+    </script>
+
+    <header>
+        <h1>Login</h1>
+        <p>Enter your name and email to log in.</p>
+    </header>
+
+    <section>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" required>
+
+            <a href="#" onclick="loginUser()" class="cta-button">Log In</a>
+        </form>
+    </section>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://twitter.com" target="_blank"><img src="./Pics/twitter-icon.png" alt="Twitter"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="./Pics/facebook-icon.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="./Pics/instagram-icon.jpg" alt="Instagram"></a>
+            <a href="https://www.linkedin.com" target="_blank"><img src="./Pics/linkedin-icon.png" alt="LinkedIn"></a>
+        </div>
+        <h4 style="color: #c5c1c1;">&copy; Made by Ashmit, Arin and Ashwin&copy;</h4>
+    </footer>       
+</body>
+
+</html>

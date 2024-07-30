@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./page2CSS.css">
+    <title>Stylish Wardrobe - Your Fashion Destination</title>
+</head>
+
+<body>
+    <script>
+        var username = localStorage.getItem("name");
+
+        if (username) {
+            document.write('<div class="header"><div class="social-media" style="justify-content: left; margin-left: 8px;"><img  style="height: 38px; width: 38px; margin-top: 0px" src="./Pics/pfp.png"><h3 style="color:#98e697; padding :10px; margin-top:0px;">' + username + '</h3></img></div></div>');
+        } else {
+            window.location.href = "login.html";
+        }
+    </script>
+
+    <header class="header">
+        <marquee><h1 class="half-colored">Zep<span>Nep</span></h1></marquee>
+    </header>
+
+    <section>
+        <div class="product">
+            <img src="./Pics/Clothes1.jpg" alt="Stylish Clothing 1">
+            <div class="product-info">
+                <h2>T-shirt</h2>
+                <p>Stay cool and stylish with our modern casual t-shirt. Perfect for any occasion.</p>
+                <a href="#" class="cta-button">Buy for $29.99</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="./Pics/Clothes2.jpg" alt="Stylish Clothing 2">
+            <div class="product-info">
+                <h2>T-Shirt 2</h2>  
+                <p>Dress to impress. Slay at any casual event with our GAP selection</p>
+                <a href="#" class="cta-button">Buy for $6.99</a>
+                <p style="color: crimson;">Only 2 left in stock</p>
+            </div>
+        </div>
+        
+        <div class="product">
+            <img src="./Pics/Clothes3.jpg" alt="Stylish Clothing 1">
+            <div class="product-info">
+                <h2>T-shirt 3</h2>
+                <p>Stay cool and stylish with our modern casual t-shirt. Perfect for any occasion.</p>
+                <a href="#" class="cta-button">Buy for $10.99</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="./Pics/Clothes4.jpg" alt="Stylish Clothing 2">
+            <div class="product-info">
+                <h2>T-Shirt 4</h2>
+                <p>Dress to impress. Slay at any casual event with our GAP selection</p>
+                <a href="#" class="cta-button">Buy for $15.99</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="./Pics/Clothes5.jpg" alt="Stylish Clothing 1">
+            <div class="product-info">
+                <h2>T-shirt 5</h2>
+                <p>Stay cool and stylish with our modern casual t-shirt. Perfect for any occasion.</p>
+                <a href="#" class="cta-button">Buy for $25.99</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="./Pics/Clothes6.jpg" alt="Stylish Clothing 2">
+            <div class="product-info">
+                <h2>T-Shirt 6</h2>
+                <p>Dress to impress. Slay at any casual event with our GAP selection</p>
+                <a href="#" class="cta-button">Buy for $12.99</a>
+            </div>
+        </div>
+        
+        <div class="product">
+            <img src="./Pics/Clothes7.jpg" alt="Stylish Clothing 1">
+            <div class="product-info">
+                <h2>T-shirt 7</h2>
+                <p>Stay cool and stylish with our modern casual t-shirt. Perfect for any occasion.</p>
+                <a href="#" class="cta-button">Buy for $17.99</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="./Pics/Clothes8.jpg" alt="Stylish Clothing 2">
+            <div class="product-info">
+                <h2>T-Shirt 8</h2>
+                <p>Dress to impress. Slay at any casual event with our GAP selection</p>
+                <a href="#" class="cta-button">Buy for $9.99</a>
+                <p style="color: crimson;">Only 5 left in stock</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://twitter.com" target="_blank"><img src="./Pics/twitter-icon.png" alt="Twitter"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="./Pics/facebook-icon.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="./Pics/instagram-icon.jpg" alt="Instagram"></a>
+            <a href="https://www.linkedin.com" target="_blank"><img src="./Pics/linkedin-icon.png" alt="LinkedIn"></a>
+        </div>
+        <h4 style="color: #c5c1c1;">&copy; Made by Ashmit, Arin and Ashwin &copy;</h4>
+    </footer>       
+
+</body>
+
+</html>

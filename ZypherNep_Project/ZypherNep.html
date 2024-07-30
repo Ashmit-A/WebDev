@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./ZypherNepCSS.css">
+    <title>ZypherNep - Your Fashion Destination</title>
+</head>
+
+<body>
+
+    <script>
+        var username = localStorage.getItem("name");
+
+        if (username) {
+            document.write('<div class="header"><div class="social-media" style="justify-content: left; margin-left: 8px;"><img  style="height: 38px; width: 38px; margin-top: 0px" src="./Pics/pfp.png"><h3 style="color:#98e697; padding :10px; margin-top:0px;">' + username + '</h3></img></div></div>');
+        } else {
+            window.location.href = "login.html";
+        }
+    </script>
+
+    <header class="header">
+        <h1 class="half-colored">Zep<span>Nep</span></h1>
+        <marquee><p style="color: #989696;">One-stop shop For all your clothing needs.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                              Elevate Your Style, Embrace Your Confidence.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                              Dress Beyond the Ordinary. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                              Embrace Your Uniqueness in Every Stitch.</p></marquee>
+    </header>
+
+    <section>
+        <div class="product">
+            <img src="./Pics/Clothes6.jpg" alt="Stylish Clothing 1">
+            <div class="product-info">
+                <h2>T-shirts</h2>
+                <p>Stay cool and stylish with our modern casual t-shirt. Perfect for any occasion.</p>
+                <a href="./page2.html" class="cta-button">Shop Now</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="./Pics/Clothes3.jpg" alt="Stylish Clothing 2">
+            <div class="product-info">
+                <h2>More T-shirts</h2>
+                <p>Dress to impress. Slay at any casual event with our GAP selection</p>
+                <a href="./page2.html" class="cta-button">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://twitter.com" target="_blank"><img src="./Pics/twitter-icon.png" alt="Twitter"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="./Pics/facebook-icon.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="./Pics/instagram-icon.jpg" alt="Instagram"></a>
+            <a href="https://www.linkedin.com" target="_blank"><img src="./Pics/linkedin-icon.png" alt="LinkedIn"></a>
+        </div>
+        <h4 style="color: #c5c1c1;">&copy; Made by Ashmit, Arin and Ashwin &copy;</h4>
+    </footer>       
+
+</body>
+
+</html>
